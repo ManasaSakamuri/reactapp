@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Great(){
+function Greet(){
     return <h1>welcome Manasa</h1>
 }
-export default Great
+export default Greet
