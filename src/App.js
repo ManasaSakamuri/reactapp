@@ -2,15 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Great from './components/Great';
 import { ClassClick } from './components/ClassClick';
-import ParentComponent from './components/ParentComponent';
-import ChildComponent from './components/ChildComponent';
-import Counter from './components/Counter';
-import EventBind from './components/EventBind';
+
+import Person from './components/Person';
+import Stylesheet from './components/StyleSheet';
 
 function App() {
   return (
     <div className="App">
-      <EventBind/>
+      <Stylesheet/>
     </div>
   );
 }
