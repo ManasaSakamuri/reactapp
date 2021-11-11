@@ -4,14 +4,14 @@ import './App.css';
 import { ClassClick } from './components/ClassClick';
 
 import Person from './components/Person';
-import Stylesheet from './components/StyleSheet';
-import Form from './components/Form';
-import Fragments from './components/Fragments';
+import Parentcomp from './components/ParentComp';
+import PureComp from './components/PureComp';
+import RegularComp from './components/RegularComp';
 
 function App() {
   return (
     <div className="App">
-      <Fragments/>
+      <RegularComp/>
       </div>
   );
 }
