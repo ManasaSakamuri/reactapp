@@ -2,16 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 import { ClassClick } from './components/ClassClick';
-
-import Person from './components/Person';
-import Parentcomp from './components/ParentComp';
-import PureComp from './components/PureComp';
 import RegularComp from './components/RegularComp';
+import RefsDemo from './components/RefsDemo';
+import PureComp from './components/PureComp';
+import MemoComp from './components/MemoComp';
 
 function App() {
   return (
     <div className="App">
-      <RegularComp/>
+      <MemoComp/>
       </div>
   );
 }
