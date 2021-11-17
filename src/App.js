@@ -6,11 +6,13 @@ import Table from './components/Table';
 import PortalDemo from './components/portals/PortalDemo';
 import ClassCounter from './components/hooks/ClassCounter';
 import HookCounter from './components/hooks/HookCounter';
+import Greet from './components/Greet';
+import welcome from './components/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter/>
+      <welcome/>
       </div>
   );
 }
