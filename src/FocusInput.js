@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Input from './Input'
+import Input from './components/refs/Input'
 
 class FocusInput extends component {
     constuctor(props) {
