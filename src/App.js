@@ -1,15 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
-import { ClassClick } from './components/ClassClick';
-import welcome from './components/Welcome';
-import RefsDemo from './components/refs/RefsDemo';
-import FrParentInput from './components/refs/FrParentInput';
+import HookCounter3 from './components/hooks/HookCounter3';
 
 function App() {
   return (
     <div className="App">
-      <FrParentInput/>
+      <HookCounter3/>
       </div>
   );
 }
