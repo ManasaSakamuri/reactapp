@@ -4,11 +4,13 @@ import './App.css';
 import { ClassClick } from './components/ClassClick';
 import Table from './components/Table';
 import PortalDemo from './components/portals/PortalDemo';
+import ClassCounter from './components/hooks/ClassCounter';
+import HookCounter from './components/hooks/HookCounter';
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo/>
+      <HookCounter/>
       </div>
   );
 }
